@@ -8,7 +8,7 @@
 .parent{
     background-color:#111827;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     padding: 10px;
 
 }
@@ -29,9 +29,9 @@
 
 .todo_app{
     width: 100%;
-    max-width: 100vh;
+    max-width: 100%;
     min-height: 380px;
-    background:#1f2937;
+    background:white;
     margin: 100px auto 40px;
     padding: 40px 40px 70px;
     border-radius: 20px;
