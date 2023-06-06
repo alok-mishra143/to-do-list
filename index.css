@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color:#111827;
 
 }
 .parent{
-    background-color:#111827;
+   
     width: 100%;
     min-height: 100%;
     padding: 10px;
@@ -63,6 +64,7 @@ input{
     border-color: #c800ff;
     border-radius: 20px;
     outline: none;
+   color:#a204a2;
 
   
     background: transparent;
