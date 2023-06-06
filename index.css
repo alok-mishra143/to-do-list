@@ -41,7 +41,8 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    color: white;
+    color: black;
+   background:white;
 }
 
 .todo_app h2 img{
@@ -65,12 +66,13 @@ input{
     border-radius: 20px;
     outline: none;
    color:#a204a2;
+   background:white;
 
   
     background: transparent;
     padding: 10px;
     font-weight: 14px;
-    color: white;
+    color: black;
 }
 button{
     border: none;
@@ -102,9 +104,11 @@ ul li::before{
     background-position: center;
     top: 12px;
     left: 8px;
+     background:white;
 }
 
 ul li.checked{
+     background:white;
     color: red;
     text-decoration: line-through;
 }
@@ -113,6 +117,7 @@ ul li.checked::before{
     height: 28px;
     width: 28px;
      background-image: url(./img/check_mark_icon.png);
+   background:white;
 
 }
 ul li span{
@@ -125,6 +130,7 @@ ul li span{
     color: rgb(234, 0, 255);
     line-height: 40px;
     text-align: center;
+   background:white;
 }
 ul li span:hover{
     background: #191238;
