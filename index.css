@@ -56,6 +56,7 @@
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
+    background:white;
     border: 2px solid #800080;
     
 }
@@ -92,6 +93,7 @@ ul li{
     cursor: pointer;
     margin-left: 10px;
     color:  #c800ff;
+    background:white;
 }
 ul li::before{
     content: '';
@@ -108,7 +110,7 @@ ul li::before{
 }
 
 ul li.checked{
-     background:white;
+    
     color: red;
     text-decoration: line-through;
 }
@@ -117,7 +119,7 @@ ul li.checked::before{
     height: 28px;
     width: 28px;
      background-image: url(./img/check_mark_icon.png);
-   background:white;
+  
 
 }
 ul li span{
