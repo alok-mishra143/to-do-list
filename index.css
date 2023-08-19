@@ -41,7 +41,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    color: black;
+    color: white;
   background:#374151;
 }
 
@@ -93,7 +93,7 @@ ul li{
     cursor: pointer;
     margin-left: 10px;
     color:  #c800ff;
-    background:white;
+   background:#374151;
 }
 ul li::before{
     content: '';
