@@ -42,7 +42,7 @@
     align-items: center;
     margin-bottom: 20px;
     color: black;
-   background:white;
+  background:#374151;
 }
 
 .todo_app h2 img{
@@ -56,7 +56,7 @@
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
-    background:white;
+ background:#374151;
     border: 2px solid #800080;
     
 }
@@ -67,7 +67,7 @@ input{
     border-radius: 20px;
     outline: none;
    color:#a204a2;
-   background:white;
+  background:#374151;
 
   
     background: transparent;
@@ -132,7 +132,7 @@ ul li span{
     color: rgb(234, 0, 255);
     line-height: 40px;
     text-align: center;
-   background:white;
+ background:#374151;
 }
 ul li span:hover{
     background: #191238;
