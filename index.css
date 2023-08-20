@@ -3,17 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:#111827;
 
 }
 .parent{
-   
+    background-color:#111827;
     width: 100%;
-    min-height: 100%;
+    min-height: 100vh;
     padding: 10px;
 
 }
 .header_text{
+    
     width: 100%;
     max-width: 540px;
     color:#a204a2;
@@ -21,7 +21,6 @@
     margin: 5px 5px 10px;
     padding: 5px 5px 5px;
     border-radius: 20px;
-   font-size: 25px;
 }
 .header_text span{
     color:#ffffff ;
@@ -30,19 +29,17 @@
 
 .todo_app{
     width: 100%;
-    max-width: 100%;
-    min-height: 380px;
-    background:#374151;
-    margin: 100px auto 40px;
+    max-width: 80%;
+    background:#1f2937;
+    margin: 50px 10px 10px;
     padding: 40px 40px 70px;
     border-radius: 20px;
 }
 .todo_app h2{
     display: flex;
-    align-items: center;
+   margin-left: 0%;
     margin-bottom: 20px;
     color: white;
-  background:#374151;
 }
 
 .todo_app h2 img{
@@ -56,7 +53,6 @@
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
- background:#374151;
     border: 2px solid #800080;
     
 }
@@ -66,14 +62,12 @@ input{
     border-color: #c800ff;
     border-radius: 20px;
     outline: none;
-   color:#a204a2;
-  background:#374151;
 
   
     background: transparent;
     padding: 10px;
     font-weight: 14px;
-    color: black;
+    color: white;
 }
 button{
     border: none;
@@ -87,13 +81,13 @@ button{
 ul li{
     position: relative;
     list-style: none;
+    background-color:#111827;
     font-size: 17px;
     padding: 12px 8px 12px 40px;
     user-select: none;
     cursor: pointer;
     margin-left: 10px;
-    color:  #c800ff;
-   background:#374151;
+    color:  #ef84fff9;
 }
 ul li::before{
     content: '';
@@ -106,20 +100,18 @@ ul li::before{
     background-position: center;
     top: 12px;
     left: 8px;
-    
 }
 
 ul li.checked{
-    
-    color: red;
+    color: #600694;
     text-decoration: line-through;
+    background:#1f2937;
 }
 
 ul li.checked::before{
     height: 28px;
     width: 28px;
      background-image: url(./img/check_mark_icon.png);
-  
 
 }
 ul li span{
@@ -132,7 +124,6 @@ ul li span{
     color: rgb(234, 0, 255);
     line-height: 40px;
     text-align: center;
- background:#374151;
 }
 ul li span:hover{
     background: #191238;
@@ -146,3 +137,42 @@ P{
     text-align: right;
 }
 
+@media  (max-width: 600px) {
+    .todo_app{
+        width: 100%;
+        max-width: 380px;
+        background:#1f2937;
+        margin: 50px 1px 30px;
+        padding: 50px 40px 70px;
+        border-radius: 20px;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 30px;
+        padding-left: 10px;
+        margin-bottom: 25px;
+        border: 2px solid #800080;
+        
+    }
+    button{
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        background: #800080;
+        color: white;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+    .header_text{
+        width: 100%;
+        max-width: 540px;
+        color:#a204a2;
+        font-weight: 10px;
+        margin: 5px 1px 10px;
+        padding: 5px 5px 5px;
+        border-radius: 20px;
+        font-size:25px ;
+    }
+  }
