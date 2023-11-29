@@ -1,5 +1,11 @@
 you can see the preview from this link:-https://alok-mishra143.github.io/to-do-list/
 
+# web preview
+
+![image](https://github.com/alok-mishra143/to-do-list/assets/100504874/8788bb03-b785-4598-82d0-8340ffbc6e3a)
+
+
+
 this is my 1st web project 
 
 # To-Do List Project
@@ -30,7 +36,7 @@ The To-Do List project is a simple web application built with HTML, CSS, and Jav
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/to-do-list.git
+   git clone https://github.com/alok-mishra143/to-do-list.git
    ```
 
 2. **Open the Project:**
@@ -65,8 +71,6 @@ This project is licensed under the [MIT License](LICENSE.md).
 
 - Special thanks to [Typewriter Library](typewriter-library-url) for providing the typewriter effect used in this project.
 
-## Contact
 
-For any inquiries or issues, please contact [your-email@example.com].
 
 Happy task managing! 🚀
