@@ -2,7 +2,8 @@ you can see the preview from this link:-https://alok-mishra143.github.io/to-do-l
 
 # web preview
 
-![image](https://github.com/alok-mishra143/to-do-list/assets/100504874/8788bb03-b785-4598-82d0-8340ffbc6e3a)
+![image](https://github.com/alok-mishra143/to-do-list/assets/100504874/8af19374-3909-4a6a-a69e-4de257dfc2b1)
+
 
 
 
